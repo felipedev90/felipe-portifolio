@@ -33,7 +33,7 @@
   justify-content: flex-start;
 }
 
-.introSpan {
+.sectionLabel {
   font-family: "JetBrains Mono", monospace;
   color: var(--accent);
   font-size: 14px;

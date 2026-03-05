@@ -7,7 +7,7 @@ export default function Hero() {
       <div className={`${styles.container} container`}>
         <div className={styles.containerContent}>
           <div className={styles.intro}>
-            <span className={styles.introSpan}>// Olá, eu sou</span>
+            <span className={styles.sectionLabel}>// Olá, eu sou</span>
             <h1 className={styles.title}>Felipe Augusto</h1>
             <span className={styles.textSpan}>
               Desenvolvedor <br /> Front-end
