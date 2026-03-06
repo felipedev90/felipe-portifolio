@@ -19,7 +19,7 @@
 }
 
 .title {
-  font-size: clamp(28px, 6vw, 56px);
+  font-size: clamp(28px, 6vw, 48px);
   font-weight: 800;
   color: var(--text-primary);
   line-height: 1.2;

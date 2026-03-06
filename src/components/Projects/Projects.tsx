@@ -15,32 +15,35 @@ export default function Projects() {
                 alt={`Screenshot do projeto ${project.titulo}`}
                 className={styles.projectImage}
               />
-              <h3 className={styles.projectTitle}>{project.titulo}</h3>
-              <div className={styles.projectTags}>
-                {project.tags.map((tag, index) => (
-                  <span key={index} className={styles.projectTag}>
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <p className={styles.projectDescription}>{project.descricao}</p>
-              <div className={styles.projectLinks}>
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.projectDemoLink}
-                >
-                  Demo
-                </a>
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.projectGithubLink}
-                >
-                  GitHub
-                </a>
+
+              <div className={styles.projectContent}>
+                <h3 className={styles.projectTitle}>{project.titulo}</h3>
+                <div className={styles.projectTagsContainer}>
+                  {project.tags.map((tag, index) => (
+                    <span key={index} className={styles.projectTag}>
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <p className={styles.projectDescription}>{project.descricao}</p>
+                <div className={styles.projectLinksContainer}>
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`${styles.button} ${styles.buttonPrimary}`}
+                  >
+                    Demo
+                  </a>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`${styles.button} ${styles.buttonOutline}`}
+                  >
+                    GitHub
+                  </a>
+                </div>
               </div>
             </div>
           ))}
