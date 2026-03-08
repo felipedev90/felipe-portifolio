@@ -18,7 +18,7 @@ export default function Hero() {
             </p>
           </div>
           <div className={styles.buttons}>
-            <a href="#projetos" className="button buttonPrimary">
+            <a href="#projects" className="button buttonPrimary">
               <FolderCode /> Ver Projetos
             </a>
             <a
