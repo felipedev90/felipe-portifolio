@@ -29,7 +29,7 @@ export default function About() {
               e <strong>Next.js</strong> com <strong>TypeScript</strong> e{" "}
               <strong>JavaScript</strong>, criando interfaces responsivas,
               acessíveis e bem estruturadas. Com cobertura de testes, pipelines
-              de CI/CD e otimização de performance, buscando contruir aplicações
+              de CI/CD e otimização de performance, buscando construir aplicações
               escaláveis e fáceis de manter.
             </p>
             <p>
